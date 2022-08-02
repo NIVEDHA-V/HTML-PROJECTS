@@ -1,0 +1,494 @@
+<!--THIS WEBPAGE OF THIS SOURCE CODE IS GIVEN IN THE EXTENDED DESCRIPTION.-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML BASICS</title>
+</head>
+<body>
+    <blockquote><q><b>Any fool can write code that a computer can understand. Good programmers write code that humans
+    can understand.</q>- Martin Fowler</b></blockquote><hr>
+
+    <h1><center>BASICS OF HTML</center></h1><hr>
+    <p><dfn>*HTML stands for HyperText Markup Language.</dfn><br>*<u>HyperText</u> is the link of web and 
+    <u>Markup</u> is the layout information of the web or documents.</p><br>
+    <hr>
+
+    <h2><u>HTML5</u></h2>
+    <div>The DOCTYPE declaration is simple <b>"!DOCTYPE html"</b>. "audio","video" tags are supported for playing 
+    audio and video files. The HTML5 supports the API for identifying the geographic location. The tags that 
+    are removed from HTML5 are <b>"applet,big,center,font,frame,strike"</b>.
+    It allows JavaScript to run in background. The "canvas"tag is for 2D drawing. The need for external plugin is
+    reduced. The HTML is a "plain text file", where the file is reffered as rich text due to the tags.</div><br>
+    <hr>
+
+    <h2><u>TAGS</u></h2>
+    <p>Strings enclosed within angular brackets are known as <b>Tags</b>.The slash (/) indicates the end of that 
+    tag.<br>For example "&lt;/html&gt;" is reffered for end of that tag.</p><br>
+    <hr>
+
+    <h2><u>HEAD AND BODY</u></h2>
+    <p>The <abbr title="HYPERTEXT MARKUP LANGUAGE">HTML</abbr> has two parts such as HEAD and BODY.<br> The <em>head 
+    part</em> consist of the title of the web page. The contents of the head part is not visible in client area.
+    The <em>body part</em> is used to create the look and feel of web page. It's contents are visible in client
+    area. The body part has elements </p><br>
+    <hr>
+
+    <h2><u>ELEMENTS</u></h2>
+    <p>There are several body elements for text formatting such as <b>"p, br, prev, div, a"</b></p><br>
+    <hr>
+
+    <h2><u>TEXT FORMATTING</u></h2>
+    <div>
+    <b>P TAG </b>is used to define a new paragraph. If we give space between two lines in a single paragraph, 
+    the space will not be shown in that paragraph. If you want to give that line break , we can create two 
+    sperate paragraph. <br>
+    <b>BR TAG</b> is used to give single line break. Since it is a <em>self closing tag</em>, it is an "Empty 
+    element". If we want more three blank lines to be inserted after some text then we can put "br" tag three times.
+    <br>
+    <b>PRE TAG</b> is used to override a browser's normal white spacing processing. It is a <b>preformatted tag</b>. 
+    Most browsers will not perform word wrapping on this text even of a line is too long, to fit within. Instead, 
+    it will provide horizontal scroll bar. Monospace font will be used.<br>
+    <b>DIV TAG</b> is used to make division of sections in the XHTML documents.</div><br>
+    <hr>
+
+    <h2><u>TEXT TAGS</u></h2>
+    <div>
+    Three types of font style can be used here.<br>
+    <ul> 
+    <li><b>B TAG</b> is used to display text in bold.</li>
+    <li><b>STRONG TAG</b> is also used to display the text in bold.</li>
+    <li><b>I TAG</b><i>is used to display in italics.</i></li>
+    <li><b>EM TAG</b><em> is used to display as emphasised text.</em></li>
+    <li><b>DFN TAG</b> is used for definiton term.</li>
+    <li><b>SMALL TAG</b> makes the text appear smaller in browser.</li>
+    <li><b>U TAG</b> underlines the text.<br></li>
+    <li><b>STRIKE TAG</b> is used to striked through.</li>
+    <li><b>DEL TAG</b> encloses deleted text.</li>
+    <li><b>INS TAG</b> encloses inserted text.</li>
+    <li><b>SUB TAG</b> displays a text as <q>subscript</q>.</li>
+    <li><b>SUP TAG</b> displays a text as <q>superscript</q>.</li>
+    </ul>
+    </div><br>
+    <hr>
+
+    <h2><u>TEXT ALIGNMENT</u></h2>
+    <div>
+        We can align the text at left, right or center using a <q><u>align attribute</u></q> inside the 
+        <b>DIV TAG</b> as follows.</br>
+        <div align="center">This line is aligned at center.</div>
+        <div align="left">This line is aligned at left.</div>
+        <div align="right">This line is aligned at right.</div>
+    </div><br>
+    <hr>
+
+    <h2><u>FONT SETTING</u></h2>
+    <p>
+        We can set the font, size and color of the text in webpage. The <b>"BASEFONT TAG"</b> is used for this 
+        purpose.
+        The syntax is <b>&lt;basefont face=font_name&gt;</b>. This tag is not supported in HTML5 , XHTML.
+        It was valid till HTML4. If you want to change the font, size and color, you should go with 
+        <abbr title="CASCADING STYLE SHEET">CSS</abbr>.
+        To display a text colorful on the webpage, we use the <b>"FONT FACE"</b> tag. We can also set the color 
+        and size of the font using its attributes in double quotes. <br>This tag is not supported in HTML5.
+    </p><br>
+    <hr>
+
+    <h2><u>BACKGROUND COLOR SETTING</u></h2>
+    <p>
+        The background color can be set using the attribute <b>"BGCOLOR"</b> in the body tag. The syntax will be 
+        <b>&lt;body bgcolor="red" &gt;</b>. Here the color can be specified using the color name or hex code.
+        HTML supports several colors like <b>"Aqua, Black, Blue, Fuchsia, Gray, Green, Lime, Maroon, Navy, 
+        Olive, Purple, Red, Silver, Teal, White, Yellow".</b>
+    </p><br>
+    <hr>
+
+    <h2><u>HORIZONTAL RULES</u></h2>
+    <p>The <b>"HR TAG"</b> is used to display a horizontal rule in the webpage. This line appears below the 
+    preceeding HTML content and above the content following the hr element. It is an empty element.</p><br>
+    <hr>
+
+    <h2><u>UNRECOGNISED ELEMENTS AND ATTRIBUTES</u></h2>
+    <p>
+        *HTML has a unique feature in it. If we make any typographical mistake such as p, the browser will 
+        still attempt to display the entire webpage. <br>
+        *For attributes with unrecognised names, the browser acts as if the attribute is not present at all.<br>
+        *For unrecognised element names, the browser displays the content of the element as if the markup 
+        were not present.<br> 
+        *In the title tag, if we mistype as <b>"&lt;titl&gt;"</b>, the contents of the title tag will be 
+        displayed in the client area.<br>
+        *Eventhough the HTML didn't throw an err, if we convert the HTML document into a plaintext , it would 
+        likely produce an error.<br>
+        To avoid this situation , it is a good idea to check the validity of the HTML. One simple way to 
+        perform validation checking is to use an "HTML VALIDATOR" such as the one available at the <q>W3C 
+        [W3C-VAL]</q>.
+        It also conforms to the standards of the HTML version you are using.
+    </p><br>
+    <hr>
+
+    <h2><u>SPECIAL CHARACTERS</u></h2>
+    <p> To display the symbols, we use a type of markup known as a <b><em>"reference".</em></b> 
+    This reference always begins with ampersand sign and ends with semicolon sign. There are two types of reference. 
+    <br> *A reference which uses a mnemonic name for the character referenced, is called a 
+    <em><b>"entity reference"</b></em>.<br>
+    *The hash sign follows the ampersand beginning the reference and is followed by the Unicode Standard value of 
+    the character, is known as <em><b>"character reference".</b></em><br>
+    *The entity reference of the following symbols <b>"&lt;, &gt;,&amp;, &quot;, &apos;, &copy;, &ntilde;, &alpha;, 
+    &forall; </b>are <b>lt, gt, amp, quot, apos, copy, ntilde, alpha, forall".</b> <br>
+    *Another type of entity reference that is used frequently is <b>"nbsp"</b>, that is <b><em>"non breaking space 
+    character".</em></b> This entity reference is useful for defining the space between two strings and informing 
+    browser for not performing the word wrapper between the string.<br>
+    For example ,<br>
+    Displaying without nbsp will be <strong>"WEB DEV"</strong>.<br> 
+    Displaying with nbsp will be <strong>"WEB &nbsp;&nbsp;&nbsp;DEV"</strong>. 
+    </p><br>
+    <hr>
+
+    <h2><u>DISPLAYING IMAGES</u></h2>
+    <p>
+        The syntax for displaying image is <b>&lt;img src= " .jpg" alt=" "&gt;</b>. <br>This tag is a self 
+        closing tag.<br>
+        The img tag has four attributes. <b>SRC</b> is where we give the image file name. If the desired image 
+        is not present in the directory then complete path must be given.<br>
+        <b>ALT</b>, used to display the text when it is not possible to display the image.<br>
+        <b>height</b> and <b>width</b> are the attributes which specifies the dimensions of the image.<br>
+        We use two types of images commonly, <b>GIF</b><em>(GRAPHIC INTERCHANGE FORMAT)</em> and <b>JPEG</b>
+        <em>(JOINT PHOTOGRAPHIC EXPERT GROUP)</em>. Normally JPEG is preferred than GIF image, since JPEG is smaller.
+        <br>
+        For example let us display an image.<br>
+        <img src="data:image/png;base64,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" alt="HTML LOGO" height="200" width="200" title="HTML">
+    </p>
+    <hr>
+
+    <h2><u>HYPERLINKS</u></h2>
+    <p>
+        There is a common practice to specify the web link in the web page. The link acts as a pointer to 
+        some web page or some resource.<br>
+        The 'a' or anchor element is used for creating clickable link. The <em>href</em> attribute of an 
+        anchor element specifies the URL of a document to be requested via the HTTP GET method if the link 
+        corresponding to the anchor is clicked by the user<br> 
+        HYPERLINKS can be used by <b>&lt;a&gt;</b>, and by specifying the URL for <b>href</b>. 
+        <b>&lt;a&gt;</b> is used for beginning while <b>&lt;/a&gt;</b> is used to end the web link. <br>
+        The value assigned to <b>href</b> specifies the target of the link. 
+    </p>
+    <p>
+        <b>STEP 1:</b> beginning should be &lt;a href="" . Inside the double quotes mention the URL of desired link.
+        <br>
+        <b>STEP 2:</b> write some text that should act as a hyperlink.<br>
+        <b>STEP 3:</b> end the web link &lt;/a&gt;.
+    </p>
+    <p>
+        Let us have an example for hyperlink:<br>
+        <center><a href="https://en.wikipedia.org/wiki/Hyperlink#:~:text=An%20anchor%20hyperlink%20%28anchor%20lin
+        k%29%20is%20a%20link,a%20designated%2C%20often%20irregular%20part%20of%20an%20image.">click here</a> 
+        to know more about HYPERLINK CONCEPT.</center>
+    </p>
+    <p>We can also use image as a hyperlink. Such example is given below. Click the below image it will take you 
+    take you to website regarding the hyperlink image.
+    We can adjust the position of the image using the <b>align</b> attribute.
+    </p>
+    <p>
+        <a href="https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML" target="_blank">
+        <center><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHikmamofxgV95NwctmcjVZ4zZqJ0XCMZ
+        jDg&usqp=CAU" alt="HYPERLINK IMG" height="100" width="100"></center>
+        </a>
+    </p> 
+    <p>
+        A  link has two ends called <em>anchors</em> and a <em>direction.</em><br>
+        The link starts at the <b>"source anchor"</b> and points to the <b>"destination anchor"</b> which may be 
+        any web resource.
+    </p>
+    <p>
+        *Paired anchor tag is used for hyperlink. It has four attributes. 
+        1, href   - specifies the URL of the page the link goes to<br>
+        2, id     - specifies the identity of an anchor.<br>
+        3, name   - works same as id attribute<br>
+        4, target - specifies where to open tbe linked file<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;By default the hyperlink page gets opened in the browsers window. 
+        If we want to get that link opened in another window we can mention _target property. We can mention 
+        the target element by including the <b>id</b> attribute which can be used to identity it in an href 
+        attribute.<br>
+        While defining the header we can include the id attribute, &lt;h2 id="book"&gt;&lt;/h2&gt;. 
+        Hence we can use that id at href as <b>#book</b> instead of link.<br>
+        Various targets can be:<br>
+        *<b>_self</b> loads the page into the current window.<br>
+        *<b>_blank</b> loads the page into a new seperate browser window.<br>
+        *<b>_parent</b> loads the page into the frame that is superior to the frame the residing hyperlink.<br>
+        *<b>_top</b> cancels all frames and loads in full browser window.<br>
+    </p><br>
+    <hr>
+
+    <h2><u>LIST</u></h2>
+    <p>
+        *Collection of items.<br>
+        *Two types : <b>ordered list, unordered list.</b><br>
+        Nested list is also available in the HTML.
+    </p>
+
+    <h3>ORDERED LIST</h3>
+    <p>
+        For ordered list we should use the tag <b>&lt;ol&gt;.</b>
+        For list items we should use the tag <b>&lt;li&gt;.</b>
+        Here we will have two attribute <b>type</b> for style of bullet and <b>start</b> is used for numbering 
+        the list.<br>
+        Several bullets are <i>a, A, i, I, 1</i>. Default bullet is <q>decimal</q>.
+    </p>
+    <h4><u>TYPICAL ORDER</u></h4>
+    <ol style="list-style-type: lower-alpha;">
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+        <li>fourth</li>
+        <li>fifth</li>
+    </ol>
+    
+    <h3>UNORDERED LIST</h3>
+    <p>
+        For unordered list we should use the tag <b>&lt;ul&gt;.</b>
+        For list items we should use the tag <b>&lt;li&gt;.</b>
+        The style of the bullet can be specified using <b>type</b> attribute in ul tag.<br>
+        Several bullets are <i>circle, disc, square.</i>
+    </p>
+    <h4><u>LANGUAGES FOR FRONT END DEV</u></h4>
+    <ul type="disc">
+        <li>HTML</li>
+        <li>JAVASCRIPT</li>
+        <li>REACT JS</li>
+        <li>ANGULAR</li>
+        <li>SWIFT</li>
+        <li>VUE</li>
+        <li>CSS</li>
+    </ul><br>
+    <hr>
+
+    <h2><u>TABLE</u></h2>
+    <div>
+        To construct a table using HTML we use <b>&lt;table&gt;</b> tag.
+        Under the table tag we use <b> thead , tbody</b> tags to display the heading and body of the  table.<br>
+        The <b>&lt;tr&gt;</b> tag is used to hold the values to be printed in one row.<br>
+        The <b>&lt;th&gt;</b> tag will be inside the thead tag. This tag will contain the heading of the table. 
+        It will be in bold.<br>
+        The <b>&lt;td&gt;</b> tag will be inside the tbody tag. This tag will contain data to be stored in the 
+        table.<br>
+        The <b>&lt;border&gt;</b> tag will be defined inside the table tag, so that the table will be displayed 
+        with borders.<br>
+    </div><br>
+
+    <h3>LANGUAGE TABLE</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>LANGUAGE</th>
+                <th>YEAR</th>
+                <th>FOUNDER</th>
+            </tr>            
+        </thead>
+        <tbody>
+            <tr>
+                <td>C</td>
+                <td>1978</td>
+                <td>Dennis Ritchie</td>
+            </tr>
+            <tr>
+                <td>C++</td>
+                <td>1979</td>
+                <td>Bjarne Stroustrup</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>1991</td>
+                <td>Guido van Rossum</td>
+            </tr>
+        </tbody>
+    </table><br>
+    <hr>
+
+    <h2><u>FORM</u></h2>
+    <div>
+        The form tag has <i>action attribute</i> which specifies the URL to send form data to.
+        It also has <i>method attribute</i> which specifies the type of HTTP request.
+        The <b>&lt;input&gt;</b> tag is used to accept data from the user.<br>
+        Some of the inputs are:
+        <ul>
+            <li><h5>TEXT</h5>
+                It is used to store text data.<br>
+                Syntax: type="text"
+            </li>
+            <li><h5>PASSWORD</h5>
+                It is used to enter a secure password.<br>
+                Syntax: type="password"
+            </li>
+            <li><h5>PLACEHOLDER</h5>
+                It is used for temporary text in input fields. It is generally accompanied by "text" and 
+                "password" attributes.<br>
+                Syntax: placeholder="insert-text-here".
+            </li>
+            <li><h5>BUTTON</h5>
+                It is used to include button in the form.<br>
+                Syntax: type="button" value="insert-value-here"
+            </li>
+            <li><h5>SUBMIT BUTTON</h5>
+                All the data will be submitted when it is clicked<br>
+                Syntax: type="submit"
+            </li>
+            <li><h5>CHECKBOX</h5>
+                It is used to provide the ability to check multiple options.<br>
+                Syntax: type="checkbox"
+            </li>
+            <li><h5>RADIO BUTTON</h5>
+                It allows one to choose a single option.<br>
+                Syntax: type="radio"
+            </li>
+        </ul>
+        <div>
+            The select tag is used for every possible option to select, it uses an &lt;option&gt; tag.<br>
+            The text areas tag is used for multi-line plaintext content with "rows" and "cols" attributes.<br>
+            The label tag is used to add captions for individual items in a form. The content of label tag will 
+            be displayed in form.
+            It also attributes like "for" and "id".<br>
+            We also have validations to ensure that users fill out forms in correct format.
+            The <b>required</b> attribute makes that field mandatory.<br>
+            The <b>email</b> tag ensures that field contains @ symbol.<br>            
+        </div>
+        <p>LETS SEE AN EXAMPLE(The form details will not be stored since it is an example content):</p>
+        <h4><center>REGISTRATTION FORM</center></h4>
+        <form>
+            <label>FIRST NAME: <input type="text" name="firstname" placeholder="FIRST NAME" required></label>
+            <label>LAST NAME: <input type="text" name="lastname" placeholder="LAST NAME" required></label><br><br>
+            <label>MALE <input type="radio" name="GENDER" value="male"></label>
+            <label>FEMALE <input type="radio" name="GENDER" value="female"></label>
+            <label>OTHER <input type="radio" name="GENDER" value="other"></label><br><br>
+            <label>EMAIL: <input type="email" name="email" placeholder="your email_id" required ></label><br><br>
+            <label>PASSWORD: <input type="password" name="password" placeholder="your password" pattern="{5,10}" 
+            required title="Please enter password of length 5 to 10"></label><br><br>
+            <label for="">BIRTHDAY: </label>
+            <select id="birthday" name="MONTH">
+                <option>MONTH</option>
+                <option>JAN</option>
+                <option>FEB</option>
+                <option>MARCH</option>
+                <option>APRIL</option>
+                <option>MAY</option>
+                <option>JUNE</option>
+                <option>JULY</option>
+                <option>AUG</option>
+                <option>SEPT</option>
+                <option>OCT</option>
+                <option>NOV</option>
+                <option>DEC</option>
+            </select>
+            <select id="birthday" name="DAY">
+                <option>DAY</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+            <label><input type="text" name="YEAR" placeholder="YEAR"></label><br><br>
+            <textarea rows="3" cols="100" placeholder="REVIEW"></textarea><br><br>
+            <label>I agree that the details are true.
+                <input type="checkbox" name="check" required>
+            </label><br><br>
+            <input type="submit" name="SUBMIT"><br>
+        </form>
+    </div><br>
+    <hr>
+
+    <h2><u>ATTRIBUTES</u></h2>
+        <div>
+            We have some global attributes in HTML. They are <b>title, style</b>.<br>
+            <b>TITLE</b> attribute is used to add extra information which will hover on the content of specified tag.
+            <b>STYLE</b> attribute is used to add style information like <i>"font, background, color, size"</i>.<br>
+        </div>
+    <h2><u>QUOTATIONS, ABBREVIATIONS AND CITATIONS</u></h2>
+    <div>
+        <b>BLOCKQUOTE TAG</b> is used to difine block quotation.
+        <b>Q TAG</b> is used to define a short quotation. Browses normally insert quotation marks around the quotes.
+        <b>ABBR TAG</b> defines an abbreviation or an acronym, like <q>HTML</q>, <q>CSS</q>. While hovering on 
+        these abbreviations the expansions will be shown if we use the <i>abbr tag.</i><br>
+        <b>ADDRESS TAG</b> defines the contact information for the author/owner of the article. The information
+        can be a email address, URL, physical address, phone number etc.<br>
+        <b>CITE TAG</b> defines the title of the creative work i.e, it shows the text in <i>italics format.</i><br>
+        <b>BDO TAG</b> used to override the current text direction. BDO stands for <dfn>Bi-Directional Override.
+        </dfn><br>
+    </div>
+    <hr>
+    <p>
+        <address>
+            Done by: NIVEDHA V<br>
+            EMAIL ID: v.nivedhavenkatesan@gmail.com<br>
+            Ref: books and online courses<br>
+            THEME: This webpage will give you an outlook of HTML.<br>
+            The source code of this page will be in my <q>GITHUB PROFILE</q><br>
+        </address>
+        <em>THANKS FOR VISITING MY PAGE</em>
+    </p><br>
+    <hr>
+    </body>
+</html>
